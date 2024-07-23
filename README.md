@@ -1,6 +1,7 @@
 # ScreenGuard-ML
 Welcome to the ScreenGuard Kids ML Backend repository! This project aims to reduce screen usage among children by leveraging machine learning models to monitor and manage screen time effectively.
 
+*****Note: Before Initial release Verions reasme woll be updated to add relevent information obver the period of time***
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -48,14 +49,14 @@ ScreenGuard Kids is an application designed to help parents manage their childre
 
    ```bash
    git clone https://github.com/AntiProton-Labs/ScreenGuard-ML.git
-   cd screenguard-kids-backend
+   cd ScreenGuard-ML
    ```
 
 2. **Create a virtual environment:**
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   python -m venv app-backend-venv
+   .\app-backend-venv\Scripts\Activate.ps1
    ```
 
 3. **Install the dependencies:**
