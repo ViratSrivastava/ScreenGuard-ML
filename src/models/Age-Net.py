@@ -1,25 +1,27 @@
-#Age-gender network: https://github.com/opencv/opencv/tree/master/samples/dnn/face_detector
-#You'll need the .prototxt and .caffemodel files for both face detection and age-gender recognition
-#`To use this script:
+'''
+Age-gender network: https://github.com/opencv/opencv/tree/master/samples/dnn/face_detector
+You'll need the .prototxt and .caffemodel files for both face detection and age-gender recognition
+`To use this script:
 
-#Download the model files:
+Download the model files:
 
-#For face detection:
-#deploy.prototxt
-#res10_300x300_ssd_iter_140000.caffemodel
-#For age-gender recognition:
-#age_deploy.prototxt
-#age_net.caffemodel
-#Place these files in the same directory as your script or update the file paths in the cv2.dnn.readNet() calls.
-#Run the script.
+For face detection:
+deploy.prototxt
+res10_300x300_ssd_iter_140000.caffemodel
+For age-gender recognition:
+age_deploy.prototxt
+age_net.caffemodel
+Place these files in the same directory as your script or update the file paths in the cv2.dnn.readNet() calls.
+Run the script.
 
 
-# https://www.blackbox.ai/share/54085208-eacd-4adc-9c47-a19731a8c9a8?model=claude-sonnet-3.5
+ https://www.blackbox.ai/share/54085208-eacd-4adc-9c47-a19731a8c9a8?model=claude-sonnet-3.5
+'''
 
 import cv2
 import numpy as np
 
-# Load face detection model
+#Load face detection model
 face_net = cv2.dnn.readNet("deploy.prototxt", "res10_300x300_ssd_iter_140000.caffemodel")
 
 # Load age-gender recognition model
