@@ -1,3 +1,4 @@
 # Virtual environment
 app-model-venv/
 data/
+.vscode/
