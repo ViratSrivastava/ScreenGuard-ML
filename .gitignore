@@ -1,4 +1,5 @@
 # Virtual environment
 app-model-venv/
-data/
 .vscode/
+src/models/tensorflow-lite/dataset/BabyMonitor.v1i.coco
+src/models/YOLOv8/datasets/BabyMonitor-1
