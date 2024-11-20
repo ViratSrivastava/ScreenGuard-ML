@@ -1,4 +1,4 @@
-# ScreenGuard-ML
+# ScreenGuard-Machine-Learning
 
 Welcome to the ScreenGuard Kids ML Backend repository! This project aims to reduce screen usage among children by leveraging machine learning models to monitor and manage screen time effectively.
 
