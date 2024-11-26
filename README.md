@@ -2,8 +2,6 @@
 
 Welcome to the ScreenGuard Kids ML Backend repository! This project aims to reduce screen usage among children by leveraging machine learning models to monitor and manage screen time effectively.
 
-*****Note: Before Initial release Version, readme will be updated to add relevent information over the period of time***
-
 ## Introduction
 
 ScreenGuard Kids is an application designed to help parents manage their children's screen time. This repository hosts the backend services, including machine learning models that monitor screen usage and provide recommendations to reduce screen time.
@@ -44,24 +42,3 @@ ScreenGuard Kids is an application designed to help parents manage their childre
    pip install -r requirements.txt
    ```
 
-4. **Set up the database:**
-
-   Update the `DATABASE_URL` in the `.env` file with your database credentials.
-
-   ```powershell
-   python manage.py migrate  # For Django
-   # or
-   flask db upgrade  # For Flask
-   ```
-
-5. **Run the application:**
-
-   ```powershell
-   python manage.py runserver  # For Django
-   # or
-   flask run  # For Flask
-   ```
-
-## Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) to get started.
