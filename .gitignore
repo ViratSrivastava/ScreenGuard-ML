@@ -3,3 +3,5 @@ app-model-venv/
 .vscode/
 src/models/tensorflow-lite/dataset/BabyMonitor.v1i.coco
 src/models/YOLOv8/datasets/BabyMonitor-1
+src/models/m1/YOLOv8/datasets
+src/models/m1/tensorflow-lite/dataset
