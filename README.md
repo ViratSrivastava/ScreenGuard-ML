@@ -25,7 +25,7 @@ ScreenGuard Kids is an application designed to help parents manage their childre
 1. **Clone the repository:**
 
    ```powershell
-   git clone https://github.com/AntiProton-Labs/ScreenGuard-ML.git
+   git clone https://github.com/ViratSrivastava/ScreenGuard-ML.git
    cd ScreenGuard-ML
    ```
 
